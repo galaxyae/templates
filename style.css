@@ -8,6 +8,23 @@
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 720px) {
+  .cards_item {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .cards_item {
+    width: 33%;
+  }
+}
 
 .card {
   font-family: 'ubuntu', sans-serif;
@@ -126,23 +143,7 @@ ul li{
 .cards_item {
   display: flex;
   padding: 1rem;
-  width: 33%;
-}
-
-@media only screen and (max-width: 720px) {
-  .cards_item {
-    display: flex;
-    padding: 1rem;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .cards_item {
-    display: flex;
-    padding: 1rem;
-    width: 50%;
-  }
+  width: 100%;
 }
 
 .card {
