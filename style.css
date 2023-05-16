@@ -129,6 +129,21 @@ ul li{
   width: 33%;
 }
 
+@media only screen and (max-width: 720px) {
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+    width: 50%;
+  }
+}
 
 .card {
   background-color: white;
