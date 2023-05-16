@@ -8,9 +8,10 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 720px) {
+
+@media only screen and (min-width: 1000px) {
   .cards_item {
-    width: 100% !important;
+    width: 33%;
   }
 }
 
@@ -20,12 +21,11 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 720px) {
   .cards_item {
-    width: 33%;
+    width: 100%;
   }
 }
-
 .card {
   font-family: 'ubuntu', sans-serif;
   position: relative;
@@ -136,14 +136,11 @@ ul li{
   margin: 0;
   padding: 0;
 }
-.cards{
-    width: 100%;
-}
+
 
 .cards_item {
   display: flex;
   padding: 1rem;
-  width: 100%;
 }
 
 .card {
